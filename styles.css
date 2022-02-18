@@ -40,17 +40,17 @@ p {
 input[type="text"] {
     width: 90px;
     font-weight:600;
-    color: ;
+    color:#1f4d83;
     padding: 20px 0;
     text-align:center;
     margin-top: 30px;
     border-radius: 5px;
     border: 2px solid #202020;
-
+    font-size: 15px;
 }
 button{
     width: 160px;
-    padding:30px, 15px;
+    padding:15px, 0px;
     border-radius: 5px;
     background-color:#1f4d83;
     color:#ffff;
@@ -58,4 +58,8 @@ button{
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 30px;
+    outline: none;
+}
+button:hover{
+    background-color: #aabdd3;
 }
