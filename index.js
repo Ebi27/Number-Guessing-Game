@@ -32,7 +32,7 @@ function submitGuess(submit) {
   } else if (Number(user_guess) === answer) {
     msg1.innerHTML = "Damn Smartie, you win!";
     msg2.innerHTML = "The number was:" + answer;
-    msg3.innerHTML = "You guessed it in" + number_of_guesses + "guesses";
+    msg3.innerHTML = "You guessed it in" +  number_of_guesses  + "guesses";
   }
 }
 document.getElementById("submitGuess").addEventListener("click", submitGuess);
